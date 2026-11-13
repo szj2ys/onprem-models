@@ -1,0 +1,8 @@
+# AMD OnPrem model catalog
+
+Every free AI model on AMD's internal OnPrem gateway (`llm-api.amd.com/OnPrem`): chat models
+(GLM, Qwen, GPT-oss, Gemma, Llama, DeepSeek), embedding models, rerankers and decision models,
+with context windows, capacity, pricing and 7-day usage. The list refreshes every 60 seconds from
+the gateway, and models added upstream show a "new" badge the moment they land.
+
+Use `/api/models` for the JSON form (browser-safe; the API key stays server-side).
